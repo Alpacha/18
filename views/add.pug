@@ -3,8 +3,8 @@ extends layout
 block content
     h1 Все курсы Академии
 
-    Form(method="post")
-    fieldset.from-group
+    form(method="post")
+    fieldset.form-group
     label(for="name") Name:
     input.form-control(name="name", type="text", placeholder="Введите имя курса")
     small.text-muted Добавьте свой новый курс.
